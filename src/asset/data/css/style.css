@@ -1,0 +1,37 @@
+.postSection {
+  display: flex;
+  margin: 20px;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.Postcard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+}
+/* .postimage {
+  width: 200px;
+  height: 200px;
+} */
+
+.Likebutton {
+  background-color: aqua;
+  margin-top: 20px;
+  width: 80px;
+  height: 20px;
+  transition: background-color 0.2s ease;
+}
+.buttonContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.Likebutton.clicked {
+  background-color: red;
+  transition: background-color 0.2s ease;
+}
+
+.Likebutton:hover {
+  transform: scale(1.2);
+}
